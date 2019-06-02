@@ -1,0 +1,16 @@
+PODS:
+  - SmileLock (3.0.7)
+
+DEPENDENCIES:
+  - SmileLock
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SmileLock
+
+SPEC CHECKSUMS:
+  SmileLock: 46b847b3ad963e3140d083b53f09036a4d210537
+
+PODFILE CHECKSUM: 2d7ad9fbc1c6ef8a4b3e0d00530c7b50ddaaec58
+
+COCOAPODS: 1.7.0

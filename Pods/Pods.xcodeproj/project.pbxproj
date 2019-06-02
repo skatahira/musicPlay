@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0599B7FF7E1F6FCF3AE1BA8F7304A3F0 /* SmileLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0995BD16BDF35F77B3ACB60F3196C /* SmileLock-dummy.m */; };
+		1B9E3FBA1B43D37A750C96A56E1D4BF7 /* PasswordUIValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D075F0003A0CB31C5313B90903865648 /* PasswordUIValidation.swift */; };
+		2BCCDD41293A8CB64A9CFACC3F0C3D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		2C2A942F57FB44E6668EF1EDC65333B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		31D705F270F7AA92D9B2FE44DF8620A0 /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D422E88B8EE2823D0501BA2B59BAAEA1 /* PasswordInputView.swift */; };
+		728755854C98C0B3AB2162C38C91AE94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		8129DDF3296AFE12890FBE02AC5645F1 /* Pods-musicPlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E36CDAB0CC4458AEAF46A3408CE8526 /* Pods-musicPlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EFA7B77BB071C81D660C709E66F04AE /* PasswordContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C483C46B1FF0D51D01856B0381C1D20 /* PasswordContainerView.xib */; };
+		9FEDF1CF78DE4833B0DAD827AA6696E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDA11E3B71A241DBC4C995CE5A07C2 /* Assets.xcassets */; };
+		AA52B20EE587069298085DD8C2EC236C /* Pods-musicPlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2C886EBB6EF50F3B7D169099C8C43 /* Pods-musicPlay-dummy.m */; };
+		DD98DA7441473064B64650F3C71FE31F /* SmileLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7696CB20CE06BBE495F3F435404125 /* SmileLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0DE66FDD08D78A080B1AD058FDCC62D /* PasswordDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03AEB65F8DB0506AA4FCE61E0FEECF9 /* PasswordDotView.swift */; };
+		F9D7EB20D6D196077CCCCA7A06B05EF7 /* PasswordContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2296204B1D77797C8C14BB0677BF4AA /* PasswordContainerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA3371295FA896E8257C72438054C8ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5B8FB50103E88F1B31C07164555C80;
+			remoteInfo = SmileLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E707CFC8240A9A9B09FC8A08425E9EF /* SmileLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmileLock.framework; path = SmileLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1575810AA7ABF948A7A71535306201BA /* Pods-musicPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-musicPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		1972040510E2DCB125AE8F9CACF6F3BF /* Pods_musicPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_musicPlay.framework; path = "Pods-musicPlay.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3AC0995BD16BDF35F77B3ACB60F3196C /* SmileLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmileLock-dummy.m"; sourceTree = "<group>"; };
+		3E36CDAB0CC4458AEAF46A3408CE8526 /* Pods-musicPlay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-musicPlay-umbrella.h"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5361AF14B372BD01A164032BFD433F1D /* SmileLock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SmileLock-Info.plist"; sourceTree = "<group>"; };
+		6C483C46B1FF0D51D01856B0381C1D20 /* PasswordContainerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PasswordContainerView.xib; path = SmileLock/Assets/PasswordContainerView.xib; sourceTree = "<group>"; };
+		6CEDA11E3B71A241DBC4C995CE5A07C2 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SmileLock/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		7FED006A7DB15B1F9B563FAD9294C640 /* SmileLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmileLock.xcconfig; sourceTree = "<group>"; };
+		854052D0A907D62BEF554E0B6622FE6F /* Pods-musicPlay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-musicPlay-frameworks.sh"; sourceTree = "<group>"; };
+		87363383AFA7206782F7C1F53E6B7C16 /* SmileLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmileLock.modulemap; sourceTree = "<group>"; };
+		910AB8D4601275F48EA4FD05795CA985 /* Pods-musicPlay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-musicPlay-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F7696CB20CE06BBE495F3F435404125 /* SmileLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmileLock-umbrella.h"; sourceTree = "<group>"; };
+		A929CE81D48F57ED6B6773540BF1F3F1 /* SmileLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmileLock-prefix.pch"; sourceTree = "<group>"; };
+		B3D33BDE03AC61BCDF339A51D2616DC9 /* Pods-musicPlay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-musicPlay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC01027833A5D91CFC79425C5DB11DD1 /* Pods-musicPlay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-musicPlay-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC1327E0833D525997CC70CC109A444C /* Pods-musicPlay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-musicPlay.modulemap"; sourceTree = "<group>"; };
+		CD37A2C5EAE8147548468693D9BFEA24 /* Pods-musicPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-musicPlay.release.xcconfig"; sourceTree = "<group>"; };
+		D075F0003A0CB31C5313B90903865648 /* PasswordUIValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordUIValidation.swift; path = SmileLock/Classes/PasswordUIValidation.swift; sourceTree = "<group>"; };
+		D422E88B8EE2823D0501BA2B59BAAEA1 /* PasswordInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordInputView.swift; path = SmileLock/Classes/PasswordInputView.swift; sourceTree = "<group>"; };
+		D9D2C886EBB6EF50F3B7D169099C8C43 /* Pods-musicPlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-musicPlay-dummy.m"; sourceTree = "<group>"; };
+		F03AEB65F8DB0506AA4FCE61E0FEECF9 /* PasswordDotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordDotView.swift; path = SmileLock/Classes/PasswordDotView.swift; sourceTree = "<group>"; };
+		F2296204B1D77797C8C14BB0677BF4AA /* PasswordContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordContainerView.swift; path = SmileLock/Classes/PasswordContainerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F3D58C2D246238124B3E012599AED96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2A942F57FB44E6668EF1EDC65333B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE626BC9661D25723762BCCB37F16980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCCDD41293A8CB64A9CFACC3F0C3D6A /* Foundation.framework in Frameworks */,
+				728755854C98C0B3AB2162C38C91AE94 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1067E105B81106B449248EC2ADECB7AA /* Pods-musicPlay */ = {
+			isa = PBXGroup;
+			children = (
+				CC1327E0833D525997CC70CC109A444C /* Pods-musicPlay.modulemap */,
+				B3D33BDE03AC61BCDF339A51D2616DC9 /* Pods-musicPlay-acknowledgements.markdown */,
+				CC01027833A5D91CFC79425C5DB11DD1 /* Pods-musicPlay-acknowledgements.plist */,
+				D9D2C886EBB6EF50F3B7D169099C8C43 /* Pods-musicPlay-dummy.m */,
+				854052D0A907D62BEF554E0B6622FE6F /* Pods-musicPlay-frameworks.sh */,
+				910AB8D4601275F48EA4FD05795CA985 /* Pods-musicPlay-Info.plist */,
+				3E36CDAB0CC4458AEAF46A3408CE8526 /* Pods-musicPlay-umbrella.h */,
+				1575810AA7ABF948A7A71535306201BA /* Pods-musicPlay.debug.xcconfig */,
+				CD37A2C5EAE8147548468693D9BFEA24 /* Pods-musicPlay.release.xcconfig */,
+			);
+			name = "Pods-musicPlay";
+			path = "Target Support Files/Pods-musicPlay";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		318EDB649913894D50A1840C34052B1C /* SmileLock */ = {
+			isa = PBXGroup;
+			children = (
+				F2296204B1D77797C8C14BB0677BF4AA /* PasswordContainerView.swift */,
+				F03AEB65F8DB0506AA4FCE61E0FEECF9 /* PasswordDotView.swift */,
+				D422E88B8EE2823D0501BA2B59BAAEA1 /* PasswordInputView.swift */,
+				D075F0003A0CB31C5313B90903865648 /* PasswordUIValidation.swift */,
+				6844957C61614D5EB836DCFF99E254F9 /* Resources */,
+				6EF2978282BEF38BC3960331BBB6126E /* Support Files */,
+			);
+			name = SmileLock;
+			path = SmileLock;
+			sourceTree = "<group>";
+		};
+		6844957C61614D5EB836DCFF99E254F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CEDA11E3B71A241DBC4C995CE5A07C2 /* Assets.xcassets */,
+				6C483C46B1FF0D51D01856B0381C1D20 /* PasswordContainerView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6EF2978282BEF38BC3960331BBB6126E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87363383AFA7206782F7C1F53E6B7C16 /* SmileLock.modulemap */,
+				7FED006A7DB15B1F9B563FAD9294C640 /* SmileLock.xcconfig */,
+				3AC0995BD16BDF35F77B3ACB60F3196C /* SmileLock-dummy.m */,
+				5361AF14B372BD01A164032BFD433F1D /* SmileLock-Info.plist */,
+				A929CE81D48F57ED6B6773540BF1F3F1 /* SmileLock-prefix.pch */,
+				9F7696CB20CE06BBE495F3F435404125 /* SmileLock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SmileLock";
+			sourceTree = "<group>";
+		};
+		756C28F2D310CDFE7DAA669364018438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1972040510E2DCB125AE8F9CACF6F3BF /* Pods_musicPlay.framework */,
+				0E707CFC8240A9A9B09FC8A08425E9EF /* SmileLock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777EDCDACA527364D626EEC71DDABEC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				318EDB649913894D50A1840C34052B1C /* SmileLock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				777EDCDACA527364D626EEC71DDABEC2 /* Pods */,
+				756C28F2D310CDFE7DAA669364018438 /* Products */,
+				EB2DE2D5141892F1EFECBB94736CDCFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB2DE2D5141892F1EFECBB94736CDCFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1067E105B81106B449248EC2ADECB7AA /* Pods-musicPlay */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02A19F340839FE76AAC68B3EB5D9320A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD98DA7441473064B64650F3C71FE31F /* SmileLock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3B02F0330999CACD19B509872F69C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8129DDF3296AFE12890FBE02AC5645F1 /* Pods-musicPlay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B0D40B22A5384D44FB25F0240FECFEA0 /* Pods-musicPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D3C813CC40547819CB9B9C40F64425 /* Build configuration list for PBXNativeTarget "Pods-musicPlay" */;
+			buildPhases = (
+				8F3B02F0330999CACD19B509872F69C8 /* Headers */,
+				AF27A83B4FC0C9A7F8B86970C290FB9A /* Sources */,
+				5F3D58C2D246238124B3E012599AED96 /* Frameworks */,
+				DD5AE1D1917AF16E939D214D744A3155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95DE3A0A645747FD81494F28A0908EF /* PBXTargetDependency */,
+			);
+			name = "Pods-musicPlay";
+			productName = "Pods-musicPlay";
+			productReference = 1972040510E2DCB125AE8F9CACF6F3BF /* Pods_musicPlay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF5B8FB50103E88F1B31C07164555C80 /* SmileLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0236C25F440A39959E3C7291FF7D27B3 /* Build configuration list for PBXNativeTarget "SmileLock" */;
+			buildPhases = (
+				02A19F340839FE76AAC68B3EB5D9320A /* Headers */,
+				AEC75F639C11DEA2009C54E6253B8DCF /* Sources */,
+				AE626BC9661D25723762BCCB37F16980 /* Frameworks */,
+				9742EB4E473A0EBEE03E738FF7129132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileLock;
+			productName = SmileLock;
+			productReference = 0E707CFC8240A9A9B09FC8A08425E9EF /* SmileLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 756C28F2D310CDFE7DAA669364018438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0D40B22A5384D44FB25F0240FECFEA0 /* Pods-musicPlay */,
+				BF5B8FB50103E88F1B31C07164555C80 /* SmileLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9742EB4E473A0EBEE03E738FF7129132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEDF1CF78DE4833B0DAD827AA6696E8 /* Assets.xcassets in Resources */,
+				8EFA7B77BB071C81D660C709E66F04AE /* PasswordContainerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5AE1D1917AF16E939D214D744A3155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC75F639C11DEA2009C54E6253B8DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D7EB20D6D196077CCCCA7A06B05EF7 /* PasswordContainerView.swift in Sources */,
+				F0DE66FDD08D78A080B1AD058FDCC62D /* PasswordDotView.swift in Sources */,
+				31D705F270F7AA92D9B2FE44DF8620A0 /* PasswordInputView.swift in Sources */,
+				1B9E3FBA1B43D37A750C96A56E1D4BF7 /* PasswordUIValidation.swift in Sources */,
+				0599B7FF7E1F6FCF3AE1BA8F7304A3F0 /* SmileLock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF27A83B4FC0C9A7F8B86970C290FB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA52B20EE587069298085DD8C2EC236C /* Pods-musicPlay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C95DE3A0A645747FD81494F28A0908EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmileLock;
+			target = BF5B8FB50103E88F1B31C07164555C80 /* SmileLock */;
+			targetProxy = DA3371295FA896E8257C72438054C8ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CC796B4952297AA759D4091B88D536F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FED006A7DB15B1F9B563FAD9294C640 /* SmileLock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmileLock/SmileLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmileLock/SmileLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmileLock/SmileLock.modulemap";
+				PRODUCT_MODULE_NAME = SmileLock;
+				PRODUCT_NAME = SmileLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5D2EA5B28CCB2D510FC2DE0BAFE937D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1575810AA7ABF948A7A71535306201BA /* Pods-musicPlay.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-musicPlay/Pods-musicPlay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-musicPlay/Pods-musicPlay.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		665495E81BCDA1639BD85F5373E6CE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD37A2C5EAE8147548468693D9BFEA24 /* Pods-musicPlay.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-musicPlay/Pods-musicPlay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-musicPlay/Pods-musicPlay.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8E3D4C966C099EBD3AC58B93AE16B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FED006A7DB15B1F9B563FAD9294C640 /* SmileLock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmileLock/SmileLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmileLock/SmileLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmileLock/SmileLock.modulemap";
+				PRODUCT_MODULE_NAME = SmileLock;
+				PRODUCT_NAME = SmileLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0236C25F440A39959E3C7291FF7D27B3 /* Build configuration list for PBXNativeTarget "SmileLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E3D4C966C099EBD3AC58B93AE16B3E /* Debug */,
+				1CC796B4952297AA759D4091B88D536F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D3C813CC40547819CB9B9C40F64425 /* Build configuration list for PBXNativeTarget "Pods-musicPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2EA5B28CCB2D510FC2DE0BAFE937D8 /* Debug */,
+				665495E81BCDA1639BD85F5373E6CE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
